@@ -1,0 +1,144 @@
+---
+---
+{% include css/normalize.css %}
+{% include css/base.css %}
+{% include css/layout.css %}
+
+/**
+ * Section, article
+ */
+
+/*  Use clearfix on all articles and sections */
+section:before,
+article:before,
+section:after,
+article:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+section:after,
+article:after { clear: both; }
+section,
+article { zoom: 1; }
+
+/** =TYPOGRAPHY ---------- */
+
+.notice {
+    background: #AACD4E;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    color: #fff;
+    margin: 0 0 30px;
+    padding: 40px 50px;
+}
+
+.notice h1,
+.notice h2,
+.notice h3,
+.notice h4,
+.notice a {
+    color: #fff;
+}
+
+/** =ARTICLES ---------- */
+
+.article-header {
+    background: #F6F6F6;
+    border: 1px solid #DFDFDF;
+    -o-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    margin: 0 0 30px;
+    padding: 30px 50px;
+}
+
+.article-header h1 {
+    margin: 0;
+}
+
+.article-header h1 + p {
+    margin-top: 25px;
+}
+
+.article-header p:last-child {
+    margin-bottom: 0;
+}
+
+.article-content {
+    background: #FFF;
+    border: 1px solid #DFDFDF;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    margin: 0 0 30px;
+    padding: 40px 50px;
+}
+
+.article-content > :last-child {
+    margin: 0;
+}
+
+.article aside {
+    float: right;
+    width: 28%;
+}
+
+/** =FRONT ---------- */
+
+/**
+ * Developers
+ */
+
+.developers > ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+}
+
+.developers li {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.developers li img {
+    vertical-align: middle;
+}
+
+/** =GITHUB FORK ---------- */
+
+#github-fork-me {
+	border: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/** =USEFUL CLASSES ---------- */
+
+/* For image replacement */
+.ir {
+    display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+   j.mp/bestclearfix */
+.clearfix:before,
+.clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
