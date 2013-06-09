@@ -42,11 +42,7 @@
     <header class="header" role="header">
         <h2><a href="/">Symfony Sverige</a></h2>
 
-        <nav class="navigation" role="navigation">
-            <ul>
-                <li class="active"><a href="/">Hem</a></li>
-            </ul>
-        </nav>
+        {% include navigation.html %}
     </header>
 
     {{ content }}

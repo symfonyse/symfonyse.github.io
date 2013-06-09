@@ -1,0 +1,22 @@
+<nav class="navigation" role="navigation">
+    <ul>
+        {% if page.url == "/index.html" %}
+            <li class="active"><a href="/">Hem</a></li>
+        {% else %}
+            <li><a href="/">Hem</a></li>
+        {% endif %}
+
+        {% assign prefix = page.url | truncate: 7, "" %}
+        {% if prefix == "/blogg/" %}
+            <li class="active"><a href="/blogg/">Blogg</a></li>
+        {% else %}
+            <li><a href="/blogg/">Blogg</a></li>
+        {% endif %}
+
+        {% if page.url == "/phparlor/index.html" %}
+            <li class="active"><a href="/phparlor/">PHParlor</a></li>
+        {% else %}
+            <li><a href="/phparlor/">PHParlor</a></li>
+        {% endif %}
+    </ul>
+</nav>
