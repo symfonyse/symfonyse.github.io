@@ -1,6 +1,6 @@
 markdown: rdiscount
 exclude:  [README.md, CNAME, Gemfile, Gemfile.lock, Guardfile]
-permalink: /:categories/:title/
+permalink: /blogg/:title/
 assets_version: 1
 title: Symfony Sverige
 domain: www.symfony.se
