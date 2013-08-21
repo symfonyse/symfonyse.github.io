@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Användargrupp för PHP-ramverket Symfony
+title: Symfony PHP på svenska
 metadescription: Svensk användargrupp för PHP-ramverket Symfony.
 ---
 ## Community
