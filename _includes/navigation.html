@@ -18,5 +18,11 @@
         {% else %}
             <li><a href="/phparlor/">PHParlor</a></li>
         {% endif %}
+
+        {% if page.url == "/coderetreat/index.html" %}
+            <li class="active"><a href="/coderetreat/">Code retreat</a></li>
+        {% else %}
+            <li><a href="/coderetreat/">Code retreat</a></li>
+        {% endif %}
     </ul>
 </nav>
