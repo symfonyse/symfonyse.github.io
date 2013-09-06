@@ -53,3 +53,5 @@ Du kan säkert komma på en mängd andra utmaningar att testa. Fundera bara på 
 Efter varje avslutad session kör vi en retrospektiv, där vi diskuterar vad som varit bra, vad som kan förbättras, samt vilka lärdomar vi tar med oss från övningen.
 
 Vi raderar också all kod vi skrivit. Det är ett viktigt steg — Code retreat fokuserar på programmeringen och lärandet, inte på att producera kod.
+
+Mer information finns på [coderetreat.org](http://coderetreat.org/).
