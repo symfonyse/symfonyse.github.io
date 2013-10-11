@@ -23,3 +23,7 @@ Här håller vi till:
 ### IRC
 
  #symfony-se på [Freenode](http://www.freenode.net/)
+
+### Andra länder
+
+[Symfony Armenien](http://symfony.am/) och [Symfony Spanien](http://symfony.es/)
